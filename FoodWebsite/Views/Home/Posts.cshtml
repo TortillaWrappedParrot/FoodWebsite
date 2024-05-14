@@ -3,5 +3,33 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Posts</h1>
-
+<div class="justify-content-center">
+    <div>
+        <h2 class="float-start">Forum</h2>
+        <form class="float-end">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        </form>
+    </div>
+    <br/>
+    <br/>
+    <div class="container border-top">
+        <div class="border-bottom" onclick="location.href='PostDetails';" style="cursor: pointer;">
+            <br />
+            <h5 class="float-end">Last Activity: 5/14/24</h5>
+            <h5>Cool Vegetables</h5>
+            <h6>Vegetables</h6>
+        </div>
+        <div class="border-bottom" onclick="location.href='PostDetails';" style="cursor: pointer;">
+            <br />
+            <h5 class="float-end">Last Activity: 5/11/24</h5>
+            <h5>Interesting Fruits</h5>
+            <h6>Fruits</h6>
+        </div>
+        <div class="border-bottom" onclick="location.href='PostDetails';" style="cursor: pointer;">
+            <br />
+            <h5 class="float-end">Last Activity: 5/9/24</h5>
+            <h5>Sourcing Foods</h5>
+            <h6>Other</h6>
+        </div>
+    </div>
+</div>
