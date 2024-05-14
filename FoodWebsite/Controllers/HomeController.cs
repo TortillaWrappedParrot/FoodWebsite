@@ -23,6 +23,26 @@ namespace FoodWebsite.Controllers
             return View();
         }
 
+        public IActionResult Blog()
+        {
+            return View();
+        }
+
+        public IActionResult Posts()
+        {
+            return View();
+        }
+
+        public IActionResult PostDetails()
+        {
+            return View();
+        }
+
+        public IActionResult Contact()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
